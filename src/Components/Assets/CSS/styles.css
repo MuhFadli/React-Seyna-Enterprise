@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap');
+
+:root {
+    --first-color: #150544;
+    --sec-color: #614EF5;
+    --third-color: #6552FF;
+
+    --first-font: Poppins, sans-serif;
+}
+
+* {
+    font-family: var(--first-font) !important;
+}
+
+*::selection {
+    background-color: hsl(0, 0%, 0%);
+    color: aliceblue;
+}
+
+button {
+    font-size: 18px !important;
+}
+
+.txt-blue {
+    color: var(--third-color) !important;
+}
+
+.bg-blue {
+    background-color: var(--third-color) !important;
+}
+
+.bg-purple {
+    background-color: var(--first-color) !important;
+}
+
+.txt-purple {
+    color: var(--first-color) !important;
+}
+
+.txt-gray {
+    color: gray !important;
+}
+
+.logo {
+    font-size: 32px !important;
+}
+
+.nav-item .nav-link {
+    font-size: 18px !important;
+} 
+
+.nav-item:hover .nav-link {
+    color: var(--first-color) !important;
+}
+
+.nav-item .nav-link.active {
+    color: var(--first-color) !important;
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.btn {
+    border-radius: .5rem !important;
+}
+
+.txt-head {
+    font-size: 48px !important;
+}
+
+.txt-subhead {
+    font-size: 18px !important;
+}
+
+.txt-highest {
+    font-size: 52px !important;
+}
+
+.card {
+    background: transparent !important;
+}
+
+.card .icons {
+    background-color: var(--sec-color) !important;
+    border-radius: 30%;
+    padding: 20px;
+    margin: auto;
+}
+
+.card .card-img-top {
+    height: 100%;
+    width: 100%;
+    max-height: 48px;
+    max-width: 48px;
+}
+
+.card-body {
+    width: 100%;
+    margin: auto;
+}
+
+/* .card-body h5 {
+    font-size: 18px !important;
+} */
+
+.card-body p {
+    font-weight: 499;
+}
+
+.checked {
+    border-radius: 50%;
+    padding: 0 5px;
+    font-weight: 599;
+}
+
+.E-features {
+    padding: 4.7rem auto;
+}
+
+.border-purple {
+    border: 2px solid var(--first-color) !important;
+}
+
+.border-radius-10 {
+    border-radius: 10px !important;
+}
+
+/* if width (w-50) teks-testimoni = w-75 (75% bootstrap) & font-size = 36px 👇 */
+
+.testimoni .teks-testimoni {
+    width: 80% !important;
+}
+
+.teks-testimoni p {
+    font-size: 36px !important;
+}
+
+.quotation i {
+    font-size: 288px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -100px;
+    color: var(--third-color);
+    transform: rotate(180deg);
+}
+
+/* if width (w-75) teks-testimoni = w-75 (75% bootstrap) & font-size = 36px 👆 */
+
+
+/* if width (w-50) teks-testimoni = w-50 (50% bootstrap) & font-size = fs-5 👇 */
+
+/* .quotation i {
+    font-size: 145px;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -50px;
+    color: var(--third-color);
+    transform: rotate(180deg);
+} */
+
+/* if width (w-50) teks-testimoni = w-50 (50% bootstrap) & font-size = fs-5 👆 */
+
+
+.teks-testimoni a {
+    text-decoration-color: var(--third-color);
+}
+
+.gambar-testimoni img {
+    border-radius: 50%;
+    border-radius: 35%;
+}
+
+.gambar-testimoni .name {
+    font-size: 20px;
+    /* font-weight: normal; */
+}
+
+@media screen and (max-width:768px){
+    .testimoni .teks-testimoni {
+        width: 80% !important;
+    }
+    /* if width (w-75) teks-testimoni = w-75 (75% bootstrap) & font-size = 36px 👇 */
+    .teks-testimoni p {
+        font-size: 30px !important;
+    }
+    /* if width (w-75) teks-testimoni = w-75 (75% bootstrap) & font-size = 36px 👆*/
+
+}
+
+@media screen and (max-width:580px){
+    /* if width (w-75) teks-testimoni = w-75 (75% bootstrap) & font-size = 36px 👇 */
+    .teks-testimoni p {
+        font-size: 24px !important;
+    }
+    .quotation i {
+        font-size: 190px;
+        margin-left: -70px;
+        margin-top: -70px;
+    }
+    /* if width (w-75) teks-testimoni = w-75 (75% bootstrap) & font-size = 36px 👆 */
+}
+
+@media screen and (max-width:550px){
+    .txt-head {
+        font-size: 42px !important;
+    }
+    button, .nav-item .nav-link, .in-packages>p.txt-subhead, .in-features p.txt-subhead {
+        font-size: 16px !important;
+    }
+}
+
+.bg-overlay {
+    /* background-color: #E7F6FF !important; */
+    margin-top: -400px;
+    padding-top: 400px;
+    /* margin-top: -395px;
+    padding-top: 395px; */
+    margin-top: -396px;
+    padding-top: 396px;
+}
+
+.E-features {
+    background: url(../Images/Union.svg) center center no-repeat;
+}
+
+.testimoni {
+    background: repeating-linear-gradient(rgba(21, 5, 68,.8), rgba(21, 5, 68,.8)), url(../Images/Union-1.svg) center center no-repeat;
+    background: url(../Images/Union-1.svg) center center no-repeat;
+    /* background-size: cover; */
+}
+
