@@ -1,2 +1,2 @@
-# React Seyna Enterprise
+Seyna Enterprise
  a landing page using react
